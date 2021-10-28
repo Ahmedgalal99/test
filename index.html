@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadoo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- start navbar  -->
+    <div class="nav_bar">
+        <div class="container">
+            <div class="brand">
+                <div class="logo">
+                    <a href="./index.html"><img src="./img/Logo.png"></a>
+                </div>
+            </div>
+
+            <div class="content_nav">
+                <ul>
+                    <li><a href="#">Desitnations</a></li>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#">Bookings</a></li>
+                    <li>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="sign" data-toggle="modal" data-target="#exampleModal">
+                            log In
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">log In</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp">
+                                                <small id="emailHelp" class="form-text text-muted">We'll never share
+                                                    your email with anyone else.</small>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="sign" data-toggle="modal" data-target="#exampleModal">
+                            Sign up
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel"> Sign up</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp">
+                                                <small id="emailHelp" class="form-text text-muted">We'll never share
+                                                    your email with anyone else.</small>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+
+                        <!-- lang for En -->
+                        <div class="Nav-contant-two">
+                            <div class="change-lang">
+                                <img src="./img/united-kingdom.png">
+                                <P>En</P><i class="fas fa-angle-down"></i>
+                            </div>
+                            <div class="slide-lang">
+                                <a href="./index.html" class="lang-item "> <img src="./img/saudi-arabia.png">
+                                    <P>عربي</P>
+                                </a>
+                                <a href="./en.html" class="lang-item active"> <img src="./img/united-kingdom.png">
+                                    <P>English</P>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End navbar  -->
+
+
+<!-- start home -->
+<div class="home">
+    <img class="back-d img-fluid" src="./img/Untitled-1.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 img-content">
+               
+            </div>
+            <div class="col-lg-6 img-content">
+               <img src="./img/Image.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End home -->
+
+
+
+    <!-- ------------------------------------------------------- -->
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./js/custom.js"></script>
+    <!-- start navbar -->
+</body>
+
+</html>
